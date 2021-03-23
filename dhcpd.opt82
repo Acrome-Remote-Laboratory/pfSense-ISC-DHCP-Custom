@@ -79,10 +79,6 @@
 					host-identifier option agent.circuit-id "0.22";
 					fixed-address 172.16.0.42;
 				}
-				host SW1PORT1  {
-					host-identifier option agent.circuit-id "1.1";
-					fixed-address 172.16.1.1;
-				}
 				host SW1PORT2  {
 					host-identifier option agent.circuit-id "1.2";
 					fixed-address 172.16.1.2;
@@ -134,6 +130,10 @@
 				host SW1PORT14  {
 					host-identifier option agent.circuit-id "1.14";
 					fixed-address 172.16.1.14;
+				}
+				host SW1PORT15  {
+					host-identifier option agent.circuit-id "1.15";
+					fixed-address 172.16.1.15;
 				}
 				host SW1PORT16  {
 					host-identifier option agent.circuit-id "1.16";
