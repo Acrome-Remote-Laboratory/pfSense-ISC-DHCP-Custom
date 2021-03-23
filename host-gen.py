@@ -5,7 +5,7 @@ class Switch:
 	def __init__(self, cid, subnet, port_count, ip_offset=0):
 		self.cid = cid
 		self.subnet = subnet
-		self._ip_prefix = '%d.0.%d.' % (self.subnet, self.cid)
+		self._ip_prefix = '%s.%d.' % (self.subnet, self.cid)
 		self.port_count = port_count
 		self.forbidden_ports = []
 		self.ports = [port for port in range(1, port_count+1) if port not in self.forbidden_ports]
@@ -29,10 +29,10 @@ class Switch:
 				}""" % (hostname, self.cid, port, ip))
 		return host_def
 
-SW1 = Switch(0, 172, 28, ip_offset=20)
+SW1 = Switch(0, '172.16', 28, ip_offset=20)
 SW1.disable_ports([1,2,23,24,25,26,27,28])
 
-SW2 = Switch(1, 172, 18)
+SW2 = Switch(1, '172.16', 18)
 SW2.disable_ports([15,17,18])
 
 host_definitions = SW1.dump_host_definitions() + SW2.dump_host_definitions()
