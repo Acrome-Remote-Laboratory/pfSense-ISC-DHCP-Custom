@@ -1,3 +1,8 @@
+_format_string = """ host %s  {
+	host-identifier option agent.circuit-id "%d.%d";
+	fixed-address %s;
+}"""
+
 class Switch:
 	def __init__(self, cid, subnet, port_count, ip_offset=0):
 		self.cid = cid
@@ -20,11 +25,7 @@ class Switch:
 			hostname = 'SW%dPORT%d' % (self.cid, port)
 			if ip <= 255:
 				ip = self._ip_prefix + str(ip)
-				host_def.append("""
-				host %s  {
-					host-identifier option agent.circuit-id "%d.%d";
-					fixed-address %s;
-				}""" % (hostname, self.cid, port, ip))
+				host_def.append( _format_string % (hostname, self.cid, port, ip))
 		return host_def
 
 	def ip_list(self):
