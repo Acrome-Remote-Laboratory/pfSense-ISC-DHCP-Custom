@@ -1,106 +1,106 @@
  host SW0PORT3  {
-	host-identifier option agent.circuit-id "0.3";
+	host-identifier option agent.circuit-id 1:3:30:2e:33;
 	fixed-address 172.16.0.23;
 } host SW0PORT4  {
-	host-identifier option agent.circuit-id "0.4";
+	host-identifier option agent.circuit-id 1:3:30:2e:34;
 	fixed-address 172.16.0.24;
 } host SW0PORT5  {
-	host-identifier option agent.circuit-id "0.5";
+	host-identifier option agent.circuit-id 1:3:30:2e:35;
 	fixed-address 172.16.0.25;
 } host SW0PORT6  {
-	host-identifier option agent.circuit-id "0.6";
+	host-identifier option agent.circuit-id 1:3:30:2e:36;
 	fixed-address 172.16.0.26;
 } host SW0PORT7  {
-	host-identifier option agent.circuit-id "0.7";
+	host-identifier option agent.circuit-id 1:3:30:2e:37;
 	fixed-address 172.16.0.27;
 } host SW0PORT8  {
-	host-identifier option agent.circuit-id "0.8";
+	host-identifier option agent.circuit-id 1:3:30:2e:38;
 	fixed-address 172.16.0.28;
 } host SW0PORT9  {
-	host-identifier option agent.circuit-id "0.9";
+	host-identifier option agent.circuit-id 1:3:30:2e:39;
 	fixed-address 172.16.0.29;
 } host SW0PORT10  {
-	host-identifier option agent.circuit-id "0.10";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:30;
 	fixed-address 172.16.0.30;
 } host SW0PORT11  {
-	host-identifier option agent.circuit-id "0.11";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:31;
 	fixed-address 172.16.0.31;
 } host SW0PORT12  {
-	host-identifier option agent.circuit-id "0.12";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:32;
 	fixed-address 172.16.0.32;
 } host SW0PORT13  {
-	host-identifier option agent.circuit-id "0.13";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:33;
 	fixed-address 172.16.0.33;
 } host SW0PORT14  {
-	host-identifier option agent.circuit-id "0.14";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:34;
 	fixed-address 172.16.0.34;
 } host SW0PORT15  {
-	host-identifier option agent.circuit-id "0.15";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:35;
 	fixed-address 172.16.0.35;
 } host SW0PORT16  {
-	host-identifier option agent.circuit-id "0.16";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:36;
 	fixed-address 172.16.0.36;
 } host SW0PORT17  {
-	host-identifier option agent.circuit-id "0.17";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:37;
 	fixed-address 172.16.0.37;
 } host SW0PORT18  {
-	host-identifier option agent.circuit-id "0.18";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:38;
 	fixed-address 172.16.0.38;
 } host SW0PORT19  {
-	host-identifier option agent.circuit-id "0.19";
+	host-identifier option agent.circuit-id 1:4:30:2e:31:39;
 	fixed-address 172.16.0.39;
 } host SW0PORT20  {
-	host-identifier option agent.circuit-id "0.20";
+	host-identifier option agent.circuit-id 1:4:30:2e:32:30;
 	fixed-address 172.16.0.40;
 } host SW0PORT21  {
-	host-identifier option agent.circuit-id "0.21";
+	host-identifier option agent.circuit-id 1:4:30:2e:32:31;
 	fixed-address 172.16.0.41;
 } host SW0PORT22  {
-	host-identifier option agent.circuit-id "0.22";
+	host-identifier option agent.circuit-id 1:4:30:2e:32:32;
 	fixed-address 172.16.0.42;
 } host SW1PORT2  {
-	host-identifier option agent.circuit-id "1.2";
+	host-identifier option agent.circuit-id 1:3:31:2e:32;
 	fixed-address 172.16.1.2;
 } host SW1PORT3  {
-	host-identifier option agent.circuit-id "1.3";
+	host-identifier option agent.circuit-id 1:3:31:2e:33;
 	fixed-address 172.16.1.3;
 } host SW1PORT4  {
-	host-identifier option agent.circuit-id "1.4";
+	host-identifier option agent.circuit-id 1:3:31:2e:34;
 	fixed-address 172.16.1.4;
 } host SW1PORT5  {
-	host-identifier option agent.circuit-id "1.5";
+	host-identifier option agent.circuit-id 1:3:31:2e:35;
 	fixed-address 172.16.1.5;
 } host SW1PORT6  {
-	host-identifier option agent.circuit-id "1.6";
+	host-identifier option agent.circuit-id 1:3:31:2e:36;
 	fixed-address 172.16.1.6;
 } host SW1PORT7  {
-	host-identifier option agent.circuit-id "1.7";
+	host-identifier option agent.circuit-id 1:3:31:2e:37;
 	fixed-address 172.16.1.7;
 } host SW1PORT8  {
-	host-identifier option agent.circuit-id "1.8";
+	host-identifier option agent.circuit-id 1:3:31:2e:38;
 	fixed-address 172.16.1.8;
 } host SW1PORT9  {
-	host-identifier option agent.circuit-id "1.9";
+	host-identifier option agent.circuit-id 1:3:31:2e:39;
 	fixed-address 172.16.1.9;
 } host SW1PORT10  {
-	host-identifier option agent.circuit-id "1.10";
+	host-identifier option agent.circuit-id 1:4:31:2e:31:30;
 	fixed-address 172.16.1.10;
 } host SW1PORT11  {
-	host-identifier option agent.circuit-id "1.11";
+	host-identifier option agent.circuit-id 1:4:31:2e:31:31;
 	fixed-address 172.16.1.11;
 } host SW1PORT12  {
-	host-identifier option agent.circuit-id "1.12";
+	host-identifier option agent.circuit-id 1:4:31:2e:31:32;
 	fixed-address 172.16.1.12;
 } host SW1PORT13  {
-	host-identifier option agent.circuit-id "1.13";
+	host-identifier option agent.circuit-id 1:4:31:2e:31:33;
 	fixed-address 172.16.1.13;
 } host SW1PORT14  {
-	host-identifier option agent.circuit-id "1.14";
+	host-identifier option agent.circuit-id 1:4:31:2e:31:34;
 	fixed-address 172.16.1.14;
 } host SW1PORT15  {
-	host-identifier option agent.circuit-id "1.15";
+	host-identifier option agent.circuit-id 1:4:31:2e:31:35;
 	fixed-address 172.16.1.15;
 } host SW1PORT16  {
-	host-identifier option agent.circuit-id "1.16";
+	host-identifier option agent.circuit-id 1:4:31:2e:31:36;
 	fixed-address 172.16.1.16;
 }
